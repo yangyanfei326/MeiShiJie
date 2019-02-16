@@ -1,0 +1,110 @@
+footer{
+    width: 100%;
+    background:#3f3a32;   
+}
+.footer{  
+    width:990px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.footer .footer_left{margin-top:20px}
+.footer .footer_left ul li{
+    color:#fff;
+    font-size:12px;
+    padding-bottom:8px;
+}
+.footer .footer_left ul li span{
+    color:#ff3232;
+    font-weight:bold;
+    font-size:16px;
+}
+/*脚步右侧*/
+
+.footer .footer_right_div1{
+    width:460px;
+    position:relative;
+}
+.footer .footer_right_div1 a{
+    background:url("../images/footerlinks.png") no-repeat;
+    display:inline-block;
+    width:100px;
+    font-size:12px;
+    color:#999;
+    text-align:center;
+    padding-top:130px;
+}
+.footer .footer_right_div1 a:first-child{
+    background-position:-5px 20px;
+}
+.footer .footer_right_div1 a:nth-child(2){
+    background-position:-107px 20px;
+}
+.footer .footer_right_div1 a:nth-child(3){
+    background-position:-213px 20px;
+}
+.footer .footer_right_div1 a:last-child{
+    background-position:-318px 20px;
+}
+.footer .footer_right_div1 a:not(:last-child){margin-right:10px;}
+.footer .footer_right_div1 .footer_right_div1_p1, .footer_right_div1_p2{
+    position:absolute;
+    top:103px;
+    color:#fff;
+}
+.footer .footer_right_div1 .footer_right_div1_p1{
+    left:15px;
+}
+.footer .footer_right_div1 .footer_right_div1_p2{
+    left:125px;
+}
+/*脚部第二行*/
+
+ .footer_con2,.footer_con3{
+    width:990px;
+    margin:0 auto;
+}   
+.footer_con2 dt{
+    color:#fff;
+    font-size:14px;
+    padding-bottom:10px;
+    margin-bottom:5px;
+    padding-top:30px;
+    border-bottom:1px solid #666;
+}
+
+.footer_con2 dd{
+    float:left;
+    padding-right:46px;
+    padding-bottom:15px;
+    font-size:12px;
+}    
+
+.footer_con2 a, .footer_con3 ul:after{
+    content:"";
+    display:block;
+    clear: both;
+}                           
+.footer_con2 a, .footer_con3 a{
+    color:#666;
+}
+.footer_con3 li{
+    float:left;
+    padding-right:20px;
+    padding-bottom:15px;
+    font-size:12px;
+}   
+.footer_con3 li:first-child{
+    margin-left:15%;
+} 
+.footer_con3 p{
+   
+    margin-left:20%;
+    font-size:9px;
+    color:#666;
+    padding-bottom:100px;
+}
+.footer_con3 ul{
+    border-top:1px solid #666;
+}

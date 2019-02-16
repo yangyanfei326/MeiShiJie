@@ -1,0 +1,64 @@
+*{margin:0;padding:0}
+ul{list-style: none}
+a{text-decoration: none;}
+.header_top{
+    background:#51b7ec;
+}
+.header_top>div,.section{
+    width:760px;
+    margin:0 auto;
+}
+.header_top ul,.header_top p{
+    display:inline-block; 
+}
+.header_top ul{
+    padding-bottom:13px;
+}
+.header_top li{
+    float:left;
+    font-size:12px;
+    color:#fff;
+    height:20px;
+    line-height:20px;
+}
+.header_top p{
+    width:120px;
+    height:50px;
+    min-width:370px;
+    background:url("../images/sprite.png") no-repeat ;
+    background-position: 0px 3px; 
+}
+.header_top li:first-child{
+    padding-left:40px; 
+    background:url("../images/sprite.png") no-repeat ;
+    background-position: 20px -44px; 
+}
+/*section 中间*/
+.section>div{
+    display:inline-block;
+    color:#666;
+}
+.section .erweima{
+    width:370px;
+}
+.section .section_right {
+    font-size:12px; 
+    border-left:1px solid rgb(211, 197, 197);
+}
+.section .section_right a{
+    color:#1797db;
+}
+.section_right ul{
+    margin-top:22px;
+    margin-left:30px;
+}
+.section_right li{
+    height:35px;
+    line-height:35px;
+    border-top:1px solid rgb(211, 197, 197); 
+    padding-right:40px;
+}
+.section_right p{
+    margin:20px 0 200px 30px;
+}
+

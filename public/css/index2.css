@@ -1,0 +1,368 @@
+*{margin:0;padding:0}
+body{
+    background:#fae8c8;
+}
+ul{list-style: none;}
+a{color:#fff}
+a,a:hover{text-decoration: none}
+/* section */
+.section{position:relative;}
+/* 轮播图 */
+.section .section_top_carousel_parent{
+   /* position:relative;*/
+    height:450px;
+}
+.section ul.section_top_carousel{
+    width:5000px;
+    /*position:absolute;
+    top:0;
+    left:-1980px;*/
+    position:relative
+}
+.section ul.section_top_carousel>li{
+    float:left;
+    position:absolute;
+    top:0;
+}
+.li1{left:-1980px;}
+.li2{left:-990px;opacity:0.4}
+.li3{left:0px;}
+.li4{left:990px;opacity:0.4}
+.li5{left:1980px;}
+
+.section ul.section_top_carousel:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.section .section_top_text{
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    font-size: 24px;
+}
+.section ul.section_top_carousel_inner li div a{display:inline-block}
+.section ul.section_top_carousel_inner li{
+    float:left;
+    position:relative;
+}
+.section ul.section_top_carousel_inner>li>div{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-image:url("../images/white80.png");
+}
+.section a.section_top_nav_imgtag1{
+    width:80px;
+    height:30px;
+    line-height:30px;
+    margin-top:-10px;
+    margin-left:70%;
+    background:#60a531;
+    font-size:14px;
+    padding-left:10px;
+}
+.section a.section_top_nav_imgtag2{
+    margin-top:-10px;
+    margin-left:20px;;
+    color:#000;
+    font-size:24px;
+}
+.section p.section_top_nav_imgtag3{
+    margin-left:20px;;
+    color:#666;
+    font-size:12px;
+    padding:5px 0 15px 0;
+}
+/* 轮播图左右箭头 */
+.section_top_carousel_prev,
+.section_top_carousel_next{
+    position:absolute;
+    top:240px;
+    z-index:10;
+    width:120px;
+    height:65px;
+    background:url("../images/zzw_bg.png")
+}
+.section_top_carousel_prev{
+    left:0px;
+    margin-left:-50px;
+}
+.section_top_carousel_next{
+    right:0px;
+    margin-right:20px;
+    background-position: -160px 0;
+}
+/* 轮播图下边时间表 */
+.section .section_top_nav_time{
+    width:100%;
+    background:#fff url("../images/kedulong.gif") repeat;
+}
+.section .section_top_nav_time_progress{
+    width:990px;
+    margin:0 auto;
+}
+.section .section_top_nav_time_progress>span{
+    display:inline-block;
+    background:url("../images/kedulong.gif")
+}
+.section .section_top_nav_time_progress>span:not(:last-child){
+    padding:10px 150px 10px 0;
+}
+/* section---水果蔬菜五谷生鲜 */
+.section a.section_top_text_food{
+    float: right;
+    color:#666;
+    font-size:12px; 
+    padding:2px;
+}
+.section .section_middle_tabs{
+    background: #fff;
+}
+.section .section_middle_tabs ul>li{
+    float:left;
+}
+.section .section_middle_tabs ul:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.section .section_middle_tabs_title li a{
+    display: inline-block;
+    padding:10px;
+    margin:10px;
+    color:#000;
+    font-size:15px;
+}
+.section .section_middle_tabs_title li a:hover{
+    background:#f00
+}
+.section .section_middle_tabs_content img{
+    width:117px;
+    margin:2px;
+    margin-bottom:10px;
+}
+.section .section_middle_tabs_content,
+.section .section_middle_tabs_title{
+    margin-left:10px;
+}
+.section .section_middle_tabs_content{
+    position:relative;
+    height:133px;
+}
+.section .section_middle_tabs_content>ul{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.section .section_middle_tabs_content>ul:first-child{z-index:10}
+.section .section_middle_tabs_content>ul>li{
+    position:relative;
+}
+.section .section_middle_tabs_content>ul>li>p{
+    position: absolute;
+    bottom:10px;
+    left:0;
+    background:rgba(250,250,250,0.5);
+    width:120px;
+    margin-bottom:5px;
+}
+.section .section_middle_tabs_content>ul>li>p>input{
+    margin-left:8px;
+    vertical-align: middle;
+}
+.section .section_middle_tabs_content>ul>li>p>a{
+    display: inline-block;
+    padding-bottom:5px;
+    color:#000;
+    font-size: 12px;
+    margin-left:8px;
+}
+/*最热菜谱*/
+.section .section_middle_carousel_nav{
+    position:absolute;
+    top:780px;
+    right:0;
+    width:500px;
+    margin-top:30px;
+}
+.section .section_middle_carousel_sum{
+    /*width:4000px;*/
+    height:812px;
+}
+.section .section_middle_carousel_inner{
+    display:inline-block;
+}
+.section .section_middle_carousel{
+   width:990px;
+   display:block;
+}
+.section .section_middle_carousel:not(:first-child){display:none}
+.section .section_middle_carousel_inner_title>a{
+    display: inline-block;
+    width:100%;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    font-size:24px;
+    color:#000;
+}
+.section .section_middle_carousel_images{
+    position: relative;
+    display:inline-block;
+    margin-right:15px;
+    margin-bottom:25px;
+}
+.section .section_middle_carousel_images:nth-child(5),
+.section .section_middle_carousel_images:last-child{
+    margin-right:0
+}
+.section .section_middle_carousel_images .p3{
+    left:155px;
+    font-size:14px;
+}
+.section .section_middle_carousel_images>p{
+    position:absolute;
+    top:10px;
+    left:160px;
+    width:70px;
+    height:35px;
+    line-height:35px;
+    padding-left:7px;
+    background:#60a531;
+    box-shadow:0 0 5px #fff;
+    font-size:14px;
+}
+.section .section_middle_carousel_images>div{
+    width:232px;
+    height:100px;
+    /*/overflow:hidden;*/
+    background:#fff;
+    margin-top:-5px;
+}
+.section .section_middle_carousel_images .h6{
+    
+    color:#000;
+    font-size:14px;
+    margin-left:15px;
+    padding-top:10px;
+}
+.section .section_middle_carousel_images .p1{
+   
+    color:#999;
+    font-size:12px;
+    margin-left:12px;
+    padding-top:10px;
+}
+.section .section_middle_carousel_images .p2{
+    
+    color:#ff3232;
+    font-size:12px;
+    margin-left:12px;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.section .section_middle_carousel_images .div_hide{
+    background:#eee;
+    position:absolute;
+    bottom:0;
+    left:0;
+    display:none;
+}
+.section .p_hide1,.p_hide2{
+    display:inline-block;
+    background:url("../images/list_style1_icons.png") no-repeat;
+    color:#000;
+    font-size:13px;
+    overflow:hidden;
+    padding-left:40px;
+    margin-left:10px;
+}
+.section .p_hide1{
+    padding-top:25px; 
+    background-position:0px -107px;
+}
+.section .p_hide2{
+    padding-top:10px; 
+    background-position:0px -41px;
+}
+.section .section_top_carousel_prev2,.section_top_carousel_next2{
+    position:absolute;
+    top:1180px;  
+    width:120px;
+    height:65px;
+    background:url("../images/zzw_bg.png")
+}
+.section .section_top_carousel_prev2{
+    left:-150px;
+}
+.section .section_top_carousel_next2{
+    background-position: -200px -2px;
+    right:-115px;
+}
+/*健康新闻*/
+.section .section_bottom_title{
+    width:100%;
+    height:80px;
+}
+.section .section_bottom_title>span{
+    width:890px;
+    font-size:24px;
+    display:inline-block;
+    text-indent:44%;
+    
+}
+.section .section_bottom_title>a{
+    width:100px;
+    font-size:12px;
+    display:inline-block;
+    text-align: center;
+    color:#666;
+}
+.section .section_bottom_tabs_img img{
+    width:150px ;
+    height:150px;
+    vertical-align: baseline;
+}
+.section .section_bottom_tabs_img,.section_bottom_tabs_div{
+    display:inline-block;
+}
+.section .section_bottom_tabs_div>p>a{
+    display:block;
+    width:320px;
+    height:50px;
+    line-height: 50px;
+    background: #fff;
+    color:#000;
+    border-bottom:1px solid #eee;
+    padding-left: 10px;
+    margin-left:-5px;
+    
+}
+.section .section_bottom_tabs>div{
+    width:485px;
+    display:inline-block; 
+    position:relative;
+}
+.section .section_bottom_tabs_div span{
+    position:absolute;
+    top: -7px;
+    left: 390px;
+    z-index:10;
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 7px;
+    background: #60a531;
+    box-shadow: 0 0 5px #fff;
+    font-size: 14px;
+}
+.section .section_bottom_tabs>div:first-child,.section_bottom_tabs>div:nth-child(3){
+    margin-right: 15px;
+}
+.section .section_bottom_tabs_div,.section_bottom_tabs_img{
+    float:left;
+    margin-bottom:30px;
+}
+
